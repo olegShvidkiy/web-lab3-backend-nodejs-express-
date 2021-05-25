@@ -1,7 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const db = require("./db/db");
-const item = require("./itemModel.js");
 const cors = require("cors");
 const Items = db.Items;
 const app = express();
